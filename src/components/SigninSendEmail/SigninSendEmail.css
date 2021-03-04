@@ -1,0 +1,148 @@
+.signin-send-section{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-color:rgb(249,250,252);
+}
+
+.signin-send-header-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    height:25px;
+}
+
+.signin-send-sign-container{
+    display:flex;
+    flex-direction:row;
+    height:auto;
+}
+
+.signin-send-sign-link{
+    display:inline;
+    margin-left:10px;
+    text-decoration:none;
+    color:rgb(20,20,200);
+    font-weight:700;
+}
+
+.signin-send-sign-link:hover{
+    color:rgb(20,20,250);
+}
+
+.signin-send-form-main-container{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    background-color:rgb(255,255,255);
+    border-radius:10px;
+    height:400px;
+    width:630px;
+    margin-top:150px;
+}
+
+.signin-send-form-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin:0 auto;
+    margin-top:70px;
+    height:160px;
+    width:400px;
+}
+
+.signin-send-signin{
+    display:flex;
+    font-size:30px;
+    color:rgb(20,20,200);
+    font-weight:600;
+}
+
+.signin-send-input{
+    display:flex;
+    height:40px;
+    border:2px solid rgb(240,240,240);
+    border-radius:5px;
+    border-color:rgb(240,240,240);
+    padding-left:20px;
+    outline:none;
+}
+
+.signin-send-input:focus{
+    border-left:2px solid blue;
+    border-radius:0 5px 5px 0;
+}
+
+.signin-send-button-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:80px;
+    width:400px;
+    margin:0 auto;
+    margin-top:15px;
+}
+
+.signin-send-button{
+    display:flex;
+    width:190px;
+    height:45px;
+    margin-left:210px;
+    margin-top:30px;
+    border:none;
+    background-color:rgb(10,214,156);
+    border-radius:2px;
+    color:rgb(255,255,255);
+    font-size:16px;
+    padding:14px 0 0 70px;
+    cursor:pointer;
+}
+
+@media (min-width: 650px) and (max-width: 1279px){
+    .signin-send-form-main-container{
+        margin-top:50px;
+    }
+
+    .signin-send-form-main-container{
+        margin-bottom:20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 649px){
+    .signin-send-header-container{
+        flex-direction:column;
+    }
+
+    .signin-send-sign-img{
+        margin:0 auto;
+    }
+
+    .signin-send-sign-container{
+        margin:0 auto;
+        margin-top:10px;
+    }
+
+    .signin-send-form-container{
+        margin-top:20px;
+        width:300px;
+    }
+
+    .signin-send-form-main-container{
+        margin-top:70px;
+        width:320px;
+        height:280px;
+        margin-bottom:20px;
+    }
+
+    .signin-send-button-container{
+        width:300px;
+    }
+
+    .signin-send-button{
+        margin-left:110px;
+        margin-top:10px;
+    }
+}
