@@ -1,0 +1,168 @@
+.signup-section{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-color:rgb(243,243,243);
+}
+
+.signup-header-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    height:25px;
+}
+
+.signup-sign-container{
+    display:flex;
+    flex-direction:row;
+    height:auto;
+}
+
+.signup-sign-link{
+    display:inline;
+    margin-left:10px;
+    text-decoration:none;
+    color:rgb(20,20,200);
+    font-weight:700;
+}
+
+.signup-sign-link:hover{
+    color:rgb(20,20,250);
+}
+
+.signup-form-main-container{
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    background-color:rgb(255,255,255);
+    border-radius:10px;
+    height:420px;
+    width:630px;
+    margin-top:150px;
+}
+
+.signup-form-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin:0 auto;
+    margin-top:70px;
+    height:220px;
+    width:400px;
+}
+
+.signup-signin{
+    display:flex;
+    font-size:28px;
+    color:rgb(20,20,200);
+    font-weight:600;
+}
+
+.signup-input{
+    display:flex;
+    height:40px;
+    border:2px solid rgb(240,240,240);
+    border-radius:5px;
+    border-color:rgb(240,240,240);
+    padding-left:20px;
+    outline:none;
+}
+
+.signup-input:focus{
+    border-left:2px solid blue;
+    border-radius:0 5px 5px 0;
+}
+
+.signup-button-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:80px;
+    width:400px;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.signup-button{
+    display:flex;
+    width:190px;
+    height:45px;
+    margin-left:210px;
+    border:none;
+    background-color:rgb(10,214,156);
+    border-radius:2px;
+    color:rgb(255,255,255);
+    font-size:16px;
+    padding:14px 0 0 55px;
+    cursor:pointer;
+}
+
+.signup-name-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.signup-input-name{
+    display:flex;
+    height:40px;
+    width:40%;
+    border:2px solid rgb(240,240,240);
+    border-radius:5px;
+    border-color:rgb(240,240,240);
+    padding-left:20px;
+    outline:none;
+}
+
+.signup-input-name:focus{
+    border-left:2px solid blue;
+    border-radius:0 5px 5px 0;
+}
+
+@media (min-width: 650px) and (max-width: 1279px){
+    .signup-form-main-container{
+        margin-top:50px;
+    }
+
+    .signup-form-main-container{
+        margin-bottom:20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 649px){
+    .signup-header-container{
+        flex-direction:column;
+    }
+
+    .signup-sign-img{
+        margin:0 auto;
+    }
+
+    .signup-sign-container{
+        margin:0 auto;
+        margin-top:10px;
+    }
+
+    .signup-form-container{
+        margin-top:20px;
+        width:300px;
+    }
+
+    .signup-form-main-container{
+        margin-top:70px;
+        width:320px;
+        height:320px;
+        margin-bottom:20px;
+    }
+
+    .signup-button-container{
+        width:300px;
+    }
+
+    .signup-button{
+        margin-left:110px;
+    }
+}
