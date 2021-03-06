@@ -1,11 +1,11 @@
-.signin-section{
+.signin-reset-section{
     display:flex;
     flex-direction:column;
     min-height:100vh;
     background-color:rgb(243,243,243);
 }
 
-.signin-header-container{
+.signin-reset-header-container{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
@@ -15,13 +15,13 @@
     height:25px;
 }
 
-.signin-sign-container{
+.signin-reset-sign-container{
     display:flex;
     flex-direction:row;
     height:auto;
 }
 
-.signin-sign-link{
+.signin-reset-sign-link{
     display:inline;
     margin-left:10px;
     text-decoration:none;
@@ -29,22 +29,22 @@
     font-weight:700;
 }
 
-.signin-sign-link:hover{
+.signin-reset-sign-link:hover{
     color:rgb(20,20,250);
 }
 
-.signin-form-main-container{
+.signin-reset-form-main-container{
     display:flex;
     flex-direction:column;
     margin:0 auto;
     background-color:rgb(255,255,255);
     border-radius:10px;
-    height:420px;
+    height:400px;
     width:630px;
     margin-top:150px;
 }
 
-.signin-form-container{
+.signin-reset-form-container{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -54,14 +54,14 @@
     width:400px;
 }
 
-.signin-signin{
+.signin-reset-signin{
     display:flex;
     font-size:28px;
     color:rgb(20,20,200);
     font-weight:600;
 }
 
-.signin-input{
+.signin-reset-input{
     display:flex;
     height:40px;
     border:2px solid rgb(240,240,240);
@@ -71,36 +71,22 @@
     outline:none;
 }
 
-.signin-input:focus{
+.signin-reset-input:focus{
     border-left:2px solid blue;
     border-radius:0 5px 5px 0;
 }
 
-.signin-button-container{
+.signin-reset-button-container{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     height:80px;
     width:400px;
     margin:0 auto;
-    margin-top:15px;
+    margin-top:40px;
 }
 
-.signin-forget{
-    display:flex;
-    text-decoration:none;
-    cursor:pointer;
-    width:110px;
-    margin-left:290px;
-    color:rgb(34,36,40);
-    font-size:14px;
-}
-
-.signin-forget:hover{
-    color:rgb(110,110,110);
-}
-
-.signin-button{
+.signin-reset-button{
     display:flex;
     width:190px;
     height:45px;
@@ -115,50 +101,46 @@
 }
 
 @media (min-width: 650px) and (max-width: 1279px){
-    .signin-form-main-container{
+    .signin-reset-form-main-container{
         margin-top:50px;
     }
 
-    .signin-form-main-container{
+    .signin-reset-form-main-container{
         margin-bottom:20px;
     }
 }
 
 @media (min-width: 320px) and (max-width: 649px){
-    .signin-header-container{
+    .signin-reset-header-container{
         flex-direction:column;
     }
 
-    .signin-sign-img{
+    .signin-reset-sign-img{
         margin:0 auto;
     }
 
-    .signin-sign-container{
+    .signin-reset-sign-container{
         margin:0 auto;
         margin-top:10px;
     }
 
-    .signin-form-container{
+    .signin-reset-form-container{
         margin-top:20px;
         width:300px;
     }
 
-    .signin-form-main-container{
+    .signin-reset-form-main-container{
         margin-top:70px;
         width:320px;
         height:320px;
         margin-bottom:20px;
     }
 
-    .signin-button-container{
+    .signin-reset-button-container{
         width:300px;
     }
 
-    .signin-forget{
-        margin-left:190px;
-    }
-
-    .signin-button{
+    .signin-reset-button{
         margin-left:110px;
     }
 }

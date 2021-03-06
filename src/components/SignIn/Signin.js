@@ -4,7 +4,7 @@ import './Signin.css'
 
 
 
-function SignIn() {
+function Signin() {
     return (
         <section className="signin-section">
             <div className="signin-header-container">
@@ -31,4 +31,4 @@ function SignIn() {
     )
 }
 
-export default SignIn
+export default Signin

@@ -1,0 +1,185 @@
+.signin-check-section{
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+    background-color:rgb(243,243,243);
+}
+
+.signin-check-header-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:80%;
+    margin-left:10%;
+    margin-top:20px;
+    height:25px;
+    z-index:10;
+}
+
+.signin-check-sign-container{
+    display:flex;
+    flex-direction:row;
+    height:auto;
+}
+
+.signin-check-sign-link{
+    display:inline;
+    margin-left:10px;
+    text-decoration:none;
+    color:rgb(20,20,200);
+    font-weight:700;
+}
+
+.signin-check-sign-link:hover{
+    color:rgb(20,20,250);
+}
+
+.signin-check-circle-one{
+    display:flex;
+    background-color:rgb(246,246,246);
+    margin:0 auto;
+    width:900px;
+    height:900px;
+    margin-top:-110px;
+    border-radius:50%;
+}
+
+.signin-check-circle-two{
+    display:flex;
+    background-color:rgb(249,249,249);
+    margin:0 auto;
+    margin-top:75px;
+    width:750px;
+    height:750px;
+    border-radius:50%;
+}
+
+.signin-check-circle-three{
+    display:flex;
+    background-color:rgb(252,252,252);
+    margin:0 auto;
+    margin-top:75px;
+    width:600px;
+    height:600px;
+    border-radius:50%;
+}
+
+.signin-check-circle-four{
+    display:flex;
+    background-color:rgb(255,255,255);
+    margin:0 auto;
+    margin-top:75px;
+    width:450px;
+    height:450px;
+    border-radius:50%;
+}
+
+.signin-check-content-container{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    position:absolute;
+    margin-top:220px;
+}
+
+.signin-check-svg-container{
+    display:flex;
+    margin:0 auto;
+}
+
+.signin-check-ready-text{
+    display:flex;
+    margin:0 auto;
+    color:rgb(42,116,219);
+    font-size:50px;
+    font-weight:600;
+    margin-top:20px;
+}
+
+.signin-check-reset-text{
+    display:flex;
+    margin:0 auto;
+    color:rgb(0,0,0);
+    font-size:22px;
+    font-weight:600;
+    margin-top:10px;
+}
+
+@media (min-width:320px) and (max-width:959px){
+    .signin-check-svg{
+        width:50px;
+        height:60px;
+    }
+
+    .signin-check-content-container{
+        margin-top:200px;
+    }
+
+    .signin-check-ready-text{
+        font-size:18px;
+        font-weight:600;
+        margin-top:10px;
+    }
+
+    .signin-check-reset-text{
+        font-size:8px;
+        font-weight:600;
+        margin-top:5px;
+    }
+
+    .signin-check-header-container{
+        flex-direction:column;
+    }
+
+    .signin-check-sign-img{
+        margin:0 auto;
+    }
+
+    .signin-check-sign-container{
+        margin:0 auto;
+        margin-top:10px;
+    }
+
+    .signin-check-circle-one{
+        width:300px;
+        height:300px;
+        margin-top:60px;
+        border-radius:50%;
+    }
+
+    .signin-check-circle-two{
+        width:240px;
+        height:240px;
+        margin-top:30px;
+        border-radius:50%;
+    }
+
+    .signin-check-circle-three{
+        width:180px;
+        height:180px;
+        margin-top:30px;
+        border-radius:50%;
+    }
+
+    .signin-check-circle-four{
+        width:120px;
+        height:120px;
+        margin-top:30px;
+        border-radius:50%;
+    }
+}
+
+/* @media (min-width: 320px) and (max-width: 649px){
+    .signin-check-header-container{
+        flex-direction:column;
+    }
+
+    .signin-check-sign-img{
+        margin:0 auto;
+    }
+
+    .signin-check-sign-container{
+        margin:0 auto;
+        margin-top:10px;
+    }
+} */

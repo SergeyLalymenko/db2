@@ -1,10 +1,10 @@
 import React from 'react'
-import logo from '../images/logo.svg'
+import logo from '../images/logo.svg'   
 import './SigninSendEmail.css'
 
 
 
-function SignIn() {
+function SigninSendEmail() {
     return (
         <section className="signin-send-section">
             <div className="signin-send-header-container">
@@ -29,4 +29,4 @@ function SignIn() {
     )
 }
 
-export default SignIn
+export default SigninSendEmail
