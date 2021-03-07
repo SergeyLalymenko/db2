@@ -3,6 +3,8 @@ import SigninSendEmail from './components/SigninSendEmail/SigninSendEmail'
 import SigninCheck from './components/SigninCheck/SigninCheck'
 import SigninReset from './components/SigninReset/SigninReset'
 import Signup from './components/Signup/Signup'
+import SignupComplete from './components/SignupComplete/SignupComplete'
+import SignupCheck from './components/SignupCheck/SignupCheck'
 import './App.css'
 
 
@@ -14,7 +16,9 @@ function App() {
     {/* <SigninSendEmail/> */}
     {/* <SigninCheck/> */}
     {/* <SigninReset/> */}
-    <Signup/>
+    {/* <Signup/> */}
+    {/* <SignupComplete/> */}
+    <SignupCheck/>
     </>
   )
 }
